@@ -1,0 +1,172 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: solid;
+    color: #fff;
+}
+body{
+    background-color: #462c45;
+}
+.logo svg{
+    width: 10vw;
+    height: 13vh ;
+    display: inline;
+    margin-left: 0;
+}
+span{
+    font-size: 5rem;
+    margin-bottom: 60px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 4rem;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 3rem; */
+    margin-top: 4rem;
+}
+.Home a{
+    background-color: #a34ea0;
+    padding: 0.7rem;
+    border-radius: 1.8rem;
+    opacity: 0.5;
+    transition: background 0.6s;
+    border-bottom: #000;
+}
+.sign a{
+    background-color: rgb(147, 42, 130);
+    padding: 0.7rem;
+    border-radius: 1.8rem;
+    transition: background 1.6s;
+}
+
+.hero1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9rem;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.hero1 h2{
+    font-size: 1.9rem;
+    margin-bottom: 1.2rem
+}
+.hero1 h1{
+    font-size: 2.9rem;
+    margin-bottom: 3.2rem
+}
+.text p{
+    width: 50vw;
+    /* height: 20v */
+    margin-right: 2rem;
+}
+.search{
+    margin-top: 10rem;
+    background-color: #fff;
+    width: 28vw;
+    padding: 0.6rem;
+    border-radius: 2rem;
+    transition: background 0.5s;
+}
+.search input{
+   padding: 0.6rem;
+   /* border-radius: 2rem; */
+   border-style: none;
+   color: #000;
+   width: fit-content;
+}
+#input-box{
+    color: #462c45;
+    font-weight: 600;
+    background: #d7c4c4 ;
+    border-radius: 1rem;
+}
+.button{
+    /* position: fixed; */
+    padding: 10px;
+    border-radius: 2rem;
+    color: #a34ea0;
+    border-style: none;
+    font-weight: 700;
+    margin-left: 5rem;
+    transition: background 0.3s;
+}
+.img1{
+    width: fit-content;
+    margin-bottom: 6rem;
+    margin-left: 9rem;
+}
+.img1 img{
+    border-radius: 1.6rem;
+    height: 78vh;
+}
+
+                                     /*****responsive and effects*****/
+ul li a:hover{
+    font-weight: 700;
+    color: #877f7f; 
+}
+.Home a:hover{
+    color: #a34ea0 ;
+    background-color: #fff;
+}
+.sign a:hover{
+    color:rgb(147, 42, 130) ;
+    background-color: #fff;
+    font-weight: 700;
+}
+.search button:hover{
+    background-color: #a34ea0;
+    color: aliceblue;
+}
+.search:hover{
+    background:#d7c4c4 ;
+}
+                 /********footer*******/
+.root{
+   background-color: #000;
+   border-top: 0.3rem solid rgb(142, 132, 146);
+   
+   height: 80vh;
+   align-items: center;
+}
+.text2 h5{
+    margin: 10rem 20rem 6rem 22rem ;
+    font-size: 3.2rem;
+}
+.text2 p{
+    margin-left: 20rem;
+    margin-bottom: 6rem;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.container ul li{
+    list-style: none;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.container ul li a{
+    padding: 2rem;
+    background:  #fff;
+    border: 4px solid  #462c45;
+    color: #a34ea0;
+    border-radius: 3rem;
+    transition: background 0.6s;
+}
+.container ul li a:hover{
+    background-color: #462c45;
+    border:4px solid #fff;
+    color: #fff;
+}
